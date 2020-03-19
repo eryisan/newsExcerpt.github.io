@@ -17,15 +17,20 @@ ul{
 
 .header img{
     width:100%;
-    position:relative;
+    z-index:1;
 }
 
-.logo ul{
+.logo{
+    position:relative;
+    overflow:hidden;
+}
+
+.logo ul li img{
     width:20%;
     position:absolute;
     right:10px;
     top:-50px;
-    overflow:hidden;
+    z-index:2;
 }
 
 .logo ul li{
