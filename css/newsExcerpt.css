@@ -10,32 +10,20 @@ img{
 ul{
     list-style:none;
 }
-
-.main{
-    width:100%;
+.header{
+    position:relative;
 }
-
 .header img{
     width:100%;
-    z-index:1;
 }
-
-.logo{
-    position:relative;
+.header ul{
+    width:15%;
+    position:absolute;
+    bottom:-20px;
+    right:10px;
     overflow:hidden;
 }
-
-.logo ul li img{
-    width:20%;
-    position:absolute;
-    right:10px;
-    top:-50px;
-    z-index:2;
-}
-
-.logo ul li{
-    color:#fff;
-    font-size:16px;
-    font-weight:bold;
+.header ul li{
     float:right;
+    color:#fff;
 }
